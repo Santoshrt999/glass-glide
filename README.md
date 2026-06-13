@@ -8,6 +8,8 @@ A glowing orb, frosted-glass pillars that refract the world behind them, and a
 whole lot of juice — built as a single-page game in **vanilla TypeScript** with
 **zero runtime dependencies**. Just the Canvas2D and WebAudio APIs.
 
+### [▶ Play it live](https://santoshrt999.github.io/glass-glide/)
+
 <img src="docs/screenshots/gameplay.png" width="300" alt="Glass Glide gameplay" />
 
 </div>
