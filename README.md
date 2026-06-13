@@ -2,7 +2,7 @@
 
 # Glass Glide
 
-**Flappy Bird mechanics reimagined in a liquid-glass aesthetic.**
+**One tap. One orb. A world of living glass.**
 
 [![Deploy to GitHub Pages](https://github.com/Santoshrt999/glass-glide/actions/workflows/deploy.yml/badge.svg)](https://github.com/Santoshrt999/glass-glide/actions/workflows/deploy.yml)
 
