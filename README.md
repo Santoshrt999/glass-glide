@@ -4,6 +4,8 @@
 
 **Flappy Bird mechanics reimagined in a liquid-glass aesthetic.**
 
+[![Deploy to GitHub Pages](https://github.com/Santoshrt999/glass-glide/actions/workflows/deploy.yml/badge.svg)](https://github.com/Santoshrt999/glass-glide/actions/workflows/deploy.yml)
+
 A glowing orb, frosted-glass pillars that refract the world behind them, and a
 whole lot of juice — built as a single-page game in **vanilla TypeScript** with
 **zero runtime dependencies**. Just the Canvas2D and WebAudio APIs.
