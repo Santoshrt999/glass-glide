@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+  <meta name="theme-color" content="#0B1020" />
+  <title>Glass Glide</title>
+</head>
+<body>
+  <div id="stage" data-phase="ready">
+    <canvas id="game"></canvas>
+    <div id="chroma" aria-hidden="true"></div>
+
+    <div id="rail" aria-hidden="true"><div id="railFill"></div></div>
+    <div id="score">0</div>
+
+    <div id="topbar">
+      <button id="pauseBtn" class="icon-btn glass" aria-label="Pause">
+        <span class="bars"><i></i><i></i></span>
+      </button>
+      <button id="muteBtn" class="icon-btn glass" aria-label="Mute">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/>
+          <path class="waves" d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" fill="none" stroke-width="1.8" stroke-linecap="round"/>
+          <line class="slash" x1="4" y1="4" x2="20" y2="20" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <div id="startCard" class="card glass">
+      <h1>Glass Glide</h1>
+      <p class="sub">Glide the orb through the glass.<br/>Don't shatter.</p>
+      <p class="best">Best&nbsp;<b id="startBest">0</b></p>
+      <button id="playBtn" class="pill glass">Play</button>
+      <p class="hint">tap &middot; click &middot; space</p>
+    </div>
+
+    <div id="pauseCard" class="card glass hidden">
+      <h2>Paused</h2>
+      <button id="resumeBtn" class="pill glass">Resume</button>
+    </div>
+
+    <div id="overCard" class="card glass hidden">
+      <h2>Shattered</h2>
+      <div id="medal" class="medal hidden" aria-hidden="true"><span id="medalLabel"></span></div>
+      <div id="finalScore">0</div>
+      <p class="best">Best&nbsp;<b id="overBest">0</b><span id="newBest" class="badge hidden">new</span></p>
+      <button id="retryBtn" class="pill glass">Again</button>
+      <p class="hint">or tap anywhere</p>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
